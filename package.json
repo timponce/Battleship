@@ -1,0 +1,29 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "battleship game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timponce/Battleship.git"
+  },
+  "author": "Tim Ponce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timponce/Battleship/issues"
+  },
+  "homepage": "https://github.com/timponce/Battleship#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "jest": "^27.4.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  }
+}
